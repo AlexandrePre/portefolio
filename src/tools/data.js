@@ -1,7 +1,7 @@
 import Bordquizz from "../assets/img/bordeauxquizz.jpg";
 // import red from "../assets/img/red.png";
 import black from "../assets/img/black.png";
-// import yellow from "../assets/img/yellow.png";
+import yellow from "../assets/img/yellow.png";
 import blue from "../assets/img/blue.png";
 import white from "../assets/img/white.png";
 import alexandre from "../assets/img/alexandrePre.jpg";
@@ -29,6 +29,8 @@ import hackathon from "../assets/img/hackathon.png";
 import loading from "../assets/video/loading.mp4";
 import comming from "../assets/img/comming.jpg";
 import transparant from "../assets/img/vide.png";
+import competence from "../assets/img/competences.png";
+import compet from "../assets/video/competence.mp4";
 
 const data = [
   {
@@ -56,9 +58,11 @@ const data = [
     cardName: "O",
     newsNameBlack: "",
     titre: "MA VIE PROFESSIONNEL D'AVANT",
-    img: Bordquizz,
+    description:
+      "Bilan de compétence effectué en septembre 2021, analysant mon parcours pro et ce qui m'a ammené vers l'univers de l'IT",
+    img: competence,
     imgFace: black,
-    video: Videowwh,
+    video: compet,
     logo1: transparant,
     logo2: transparant,
     logo3: transparant,
@@ -66,7 +70,8 @@ const data = [
     logo5: transparant,
     logo6: transparant,
     logo7: transparant,
-    lienSite: "/",
+    lienSite:
+      "https://drive.google.com/file/d/1LkoTOxdqlsCPbETmPB-gGuLRYDKdl1n6/view?usp=sharing",
     lienGit: "/",
   },
   {
@@ -236,7 +241,7 @@ const data = [
     newsNameBlack: "R",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -255,7 +260,7 @@ const data = [
     newsNameBlack: "E",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -274,7 +279,7 @@ const data = [
     newsNameBlack: "A",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -293,7 +298,7 @@ const data = [
     newsNameBlack: "C",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -312,7 +317,7 @@ const data = [
     newsNameBlack: "T",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -331,7 +336,7 @@ const data = [
     newsNameBlack: "/",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -350,7 +355,7 @@ const data = [
     newsNameBlack: "N",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -369,7 +374,7 @@ const data = [
     newsNameBlack: "O",
     // txt: "Première Place",
     titre: "COMMING SOON",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -388,7 +393,7 @@ const data = [
     newsNameBlack: "D",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -407,7 +412,7 @@ const data = [
     newsNameBlack: "E",
     titre: "COMMING SOON",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: white,
     video: loading,
     logo1: transparant,
@@ -426,7 +431,7 @@ const data = [
     titre: "COMMING SOON",
     newsNameBlack: "J",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: black,
     video: loading,
     logo1: transparant,
@@ -445,7 +450,7 @@ const data = [
     titre: "COMMING SOON",
     newsNameBlack: "S",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: black,
     video: loading,
     logo1: transparant,
@@ -464,7 +469,7 @@ const data = [
     titre: "COMMING SOON",
     newsNameBlack: "GIT",
     // txt: "Première Place",
-    img: blue,
+    img: yellow,
     imgFace: black,
     video: loading,
     logo1: transparant,

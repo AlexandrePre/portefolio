@@ -3,3 +3,19 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
+.chrono {
+  width: 80vh;
+  position: absolute;
+  top: 77vh;
+  left: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chrono p{
+  font-size:xx-large;
+  color: brown;
+}
