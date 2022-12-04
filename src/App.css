@@ -16,8 +16,8 @@ body {
   border: 0;
 }
 
-.chrono p{
-  font-size:x-large;
+.chrono p {
+  font-size: x-large;
   color: brown;
   border-top: 0;
 }
@@ -33,7 +33,31 @@ body {
   justify-content: center;
 }
 
-.chronostart p{
-  font-size:x-large;
+.chronostart p {
+  font-size: x-large;
   color: brown;
 }
+
+.mobile {
+
+display:none;
+
+}
+
+@media screen and (max-width: 1020px) {
+
+  .mobile {
+    display: block;
+   
+  }
+
+  .chrono {
+
+    display: none;
+  }
+
+  .chronostart{
+    display: none;
+  }
+}
+

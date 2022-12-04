@@ -33,7 +33,7 @@ function Getchrono() {
     <div className="chrono">
       <h3> Temps restant avant la fin de formation</h3>
       <p>
-        {ndays}d {nhours}j {nminutes}m {nseconds}s
+        {ndays}J {nhours}H {nminutes}M {nseconds}S
       </p>
     </div>
   );

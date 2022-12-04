@@ -48,7 +48,6 @@ body {
   font-size: 2em;
 }
 
-
 .cardImg {
   position: absolute;
   top: 0;
@@ -142,4 +141,15 @@ a {
 
 .logo {
   width: 3vw;
+  
+}
+
+
+
+@media screen and (max-width: 1020px) {
+
+  .carreau {
+    display: none;
+   
+  }
 }

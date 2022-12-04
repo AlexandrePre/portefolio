@@ -7,12 +7,10 @@ function Startchrono() {
   const [nhours, setNHours] = useState();
   const [ndays, setNDays] = useState();
 
-  const startdownDate = new Date("september 14, 2022").getTime(); 
+  const startdownDate = new Date("september 14, 2022").getTime();
   const now = new Date().getTime();
 
   const startFormation = now - startdownDate;
-
-
 
   let timer;
 
@@ -36,7 +34,7 @@ function Startchrono() {
     <div className="chronostart">
       <h3> A commencé la formation de développeur depuis </h3>
       <p>
-        {ndays}d {nhours}j {nminutes}m {nseconds}s
+        {ndays}J {nhours}H {nminutes}M {nseconds}S
       </p>
     </div>
   );

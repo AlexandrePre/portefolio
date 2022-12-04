@@ -1,4 +1,5 @@
 import GetChrono from "@components/GetChrono";
+import Mobile from "@components/mobile";
 import Startchrono from "@components/StartChrono";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
@@ -11,6 +12,7 @@ function App() {
         <Transition />
         <GetChrono />
         <Startchrono />
+        <Mobile />
       </Router>
     </div>
   );
