@@ -1,37 +1,40 @@
 import { useState, useEffect } from "react";
 import "../App.css";
 
-function Getchrono() {
+function Startchrono() {
   const [nseconds, setNSeconds] = useState();
   const [nminutes, setNMinutes] = useState();
   const [nhours, setNHours] = useState();
   const [ndays, setNDays] = useState();
 
-  const countdownDate = new Date("february 10, 2023").getTime();
+  const startdownDate = new Date("september 14, 2022").getTime(); 
   const now = new Date().getTime();
-  const distanceBase = countdownDate - now;
+
+  const startFormation = now - startdownDate;
+
+
 
   let timer;
 
   useEffect(() => {
     timer = setInterval(() => {
-      setNDays(Math.floor(distanceBase / (1000 * 60 * 60 * 24)));
+      setNDays(Math.floor(startFormation / (1000 * 60 * 60 * 24)));
       setNHours(
         Math.floor(
-          (distanceBase % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          (startFormation % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
         ).toFixed(0)
       );
       setNMinutes(
-        Math.floor((distanceBase % (1000 * 60 * 60)) / (1000 * 60)).toFixed(0)
+        Math.floor((startFormation % (1000 * 60 * 60)) / (1000 * 60)).toFixed(0)
       );
-      setNSeconds(Math.floor((distanceBase % (1000 * 60)) / 1000).toFixed(0));
+      setNSeconds(Math.floor((startFormation % (1000 * 60)) / 1000).toFixed(0));
     }, 1000);
     return () => clearInterval(timer);
   });
 
   return (
-    <div className="chrono">
-      <h3> Temps restant avant la fin de formation</h3>
+    <div className="chronostart">
+      <h3> A commencé la formation de développeur depuis </h3>
       <p>
         {ndays}d {nhours}j {nminutes}m {nseconds}s
       </p>
@@ -39,4 +42,4 @@ function Getchrono() {
   );
 }
 
-export default Getchrono;
+export default Startchrono;

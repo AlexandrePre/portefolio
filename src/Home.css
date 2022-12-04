@@ -48,14 +48,7 @@ body {
   font-size: 2em;
 }
 
-.CardItem h3 {
-  position: absolute;
-  color: rgb(203, 148, 201);
-  z-index: 3;
-  font-weight: bold;
-  font-size: 1em;
-  top: 12vh;
-}
+
 .cardImg {
   position: absolute;
   top: 0;
@@ -63,7 +56,7 @@ body {
   opacity: 0.5;
   width: 100%;
   vertical-align: bottom;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .imgFace {
@@ -72,7 +65,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  /* z-index: 2; */
   vertical-align: bottom;
 }
 
