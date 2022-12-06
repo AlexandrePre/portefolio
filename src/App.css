@@ -23,7 +23,7 @@ body {
 }
 
 .chronostart {
-  width: 95vh;
+  width: 75vh;
   position: absolute;
   grid-row: 0;
   top: 2vh;
