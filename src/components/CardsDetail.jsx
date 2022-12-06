@@ -31,11 +31,6 @@ function CardsDetail() {
         logo6={data[id].logo6}
         logo7={data[id].logo7}
       />
-
-      {/* {data[id] &&
-        data[id].language.map((lang) => (
-          <Language language={lang.category} logo={lang.logo} />
-        ))} */}
     </div>
   );
 }

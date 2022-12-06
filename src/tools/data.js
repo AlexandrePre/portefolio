@@ -2,7 +2,6 @@ import Bordquizz from "../assets/img/bordeauxquizz.jpg";
 // import red from "../assets/img/red.png";
 import black from "../assets/img/black.png";
 import yellow from "../assets/img/yellow.png";
-import blue from "../assets/img/blue.png";
 import white from "../assets/img/white.png";
 import alexandre from "../assets/img/alexandrePre.jpg";
 import derniereheure from "../assets/img/logo_global.png";
@@ -57,9 +56,9 @@ const data = [
     id: 2,
     cardName: "O",
     newsNameBlack: "",
-    titre: "MA VIE PROFESSIONNEL D'AVANT",
+    titre: "MA VIE PROFESSIONNELLE D'AVANT",
     description:
-      "Bilan de compétence effectué en septembre 2021, analysant mon parcours pro et ce qui m'a ammené vers l'univers de l'IT",
+      "Bilan de compétence effectué en septembre 2021, analysant mon parcours pro et ce qui m'a amené vers l'univers de l'IT",
     img: competence,
     imgFace: black,
     video: compet,
@@ -98,7 +97,7 @@ const data = [
     id: 4,
     cardName: "T",
     newsNameBlack: "",
-    titre: "BORDEUXQUIZ",
+    titre: "BORDEAUXQUIZZ",
     description:
       "Objectif : réaliser un site responsive en HTML/CSS en intégrant des modules JS",
     txt: "Projet 1 de la wild code school (2semaines)",
@@ -119,9 +118,9 @@ const data = [
     id: 5,
     cardName: "E",
     newsNameBlack: "",
-    titre: "WORL WAR HERO",
+    titre: "WORLD WAR HERO",
     description:
-      "Objectif : créer un jeu de carte en React tout en fesant appel à une API, travail en équipe de 5 avec la technique SCRUM et en utilisant un workflow Github",
+      "Objectif : créer un jeu de cartes en React tout en faisant appel à une API, travail en équipe de 5 avec la technique SCRUM et en utilisant un workflow Github",
     txt: "Projet 2 de la wild code school (6 semaines)",
     logo1: html,
     logo2: css,
@@ -153,7 +152,7 @@ const data = [
     logo6: transparent,
     logo7: transparent,
     description:
-      "Créer un site sur le thème du voyage.Notre histoire nous sommes en 2132, la planète terre va mourrir dans 1h et on est l'agence de voyage dernère heure qui propose des billets pour de nouvelle planètes, mais attention plus le temps avance et plus les prix monte et les places restantes diminues",
+      "Créer un site sur le thème du voyage.Notre histoire nous sommes en 2132, la planète Terre va mourir dans 1h et on est l'agence de voyage dernière heure qui propose des billets pour de nouvelles planètes, mais attention plus le temps avance et plus les prix monte et les places restantes diminues.",
     lienSite: "https://hackaton-ovvrm01ko-alexandrepre.vercel.app/",
     lienGit: "https://github.com/AlexandrePre/derniereheure",
   },
@@ -164,7 +163,7 @@ const data = [
     titre: "make sense",
     txt: "Projet 3 de la Wild code Scholl (en 8 semaines) En Cours",
     description:
-      "Création d'une plateforme de prise de décision colaborative interne en entreprise. interaction dynamique et en temps réel entre les utilisateurs de la plateforme (notification lors d'une crétion d'une décision, d'un avis, ...)",
+      "Création d'une plateforme de prise de décisions collaborative interne en entreprise. Interaction dynamique et en temps réel entre les utilisateurs de la plateforme (notification lors d'une création d'une décision, d'un avis, ...)",
     img: make,
     imgFace: black,
     video: makese,
